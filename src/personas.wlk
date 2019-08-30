@@ -5,7 +5,7 @@ object estefania {
 }
 
 object rosa {
-	method leGusta(objeto) {  }  // completar
+	method leGusta(objeto) { return objeto.peso() <= 2000 }  // completar
 }
 
 // agregar luisa y juan
